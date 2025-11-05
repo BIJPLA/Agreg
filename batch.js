@@ -446,7 +446,7 @@ async function runBatch() {
     for (let j = 0; j < destinos.length; j++) {
       if (cancelRequested) {
         setStatus(`Cancelado em ${done}/${total}. Gerando XLSX parcial...`);
-        toXlsx(rows, 'OD_pairs_RESULT_parcial.xlsx');
+        toXlsx(rows, 'Relatório Agregados.xlsx');
         btnRun.disabled = false;
         return;
       }
@@ -526,7 +526,7 @@ if (sum) {
 
       if (cancelRequested) {
         setStatus(`Cancelado em ${done}/${total}. Gerando XLSX parcial...`);
-        toXlsx(rows, 'OD_pairs_RESULT_parcial.xlsx');
+        toXlsx(rows, 'Relatório Agregados.xlsx');
         btnRun.disabled = false;
         return;
       }
