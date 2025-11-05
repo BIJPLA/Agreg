@@ -5,7 +5,7 @@
 - **Log**: mostra cada consulta no formato `[n/Total] Origem → Destino` e erros.
 
 ## Como usar
-1. Abra **index.html** no navegador (Chrome recomendado).
+1. Abra **index.html** no navegador (Opera recomendado).
 2. Ajuste o **Delay (ms)** se quiser (padrão 3000).
 3. Clique **Iniciar**.
 4. Acompanhe o progresso e o log.
